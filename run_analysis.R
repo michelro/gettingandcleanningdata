@@ -3,6 +3,10 @@ run_analysis <- function() {
         # STEP #1
         # Merges the training and the test sets to create one data set.
         
+        # script path
+        script_path <- dirname(sys.frame(1)$ofile)
+        print(script_path)
+        
         # using LaF library to read long fixed column files
         library(LaF)
         
