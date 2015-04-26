@@ -8,8 +8,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Each variable on the data set represents the **mean** of measurements, grouped by **subjectId** and **activityName**.
 
-The acceleration signals are provided in standard gravity units "g" (see variables related to "acceleration").
-The angular velocity is provided in radians/second (see variables related to "gyroscope").
+The **acceleration** signals are provided in standard **gravity units "g"** (see variables related to "acceleration").
+
+The **angular velocity** is provided in **radians/second** (see variables related to "gyroscope").
 
 # Variables description
 
