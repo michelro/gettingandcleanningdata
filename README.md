@@ -2,7 +2,9 @@
 
 This file describes all the data transformation applied to the original files to get the tidy data for analysis.
 
-Additional information about variable description, units etc can be found on CodeBook.md file.
+Additional information about **variable description, units** etc can be found on CodeBook.md file.
+
+The data used in this analysis can be found in the **UCI HAR Dataset** directory.
 
 # Data Transformation - Step by Step
 
