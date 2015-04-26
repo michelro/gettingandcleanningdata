@@ -91,6 +91,7 @@ run_analysis <- function() {
         col_names <- gsub("Acc", "Acceleration", col_names)
         col_names <- gsub("Gyro", "Gyroscope", col_names)
         col_names <- gsub("Mag", "Magnitude", col_names)
+        col_names <- gsub("Freq", "Frequency", col_names)
         col_names <- gsub("BodyBody", "Body", col_names)
         col_names <- gsub("^t", "time", col_names)
         col_names <- gsub("^f", "frequency", col_names)
