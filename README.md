@@ -2,6 +2,8 @@
 
 This file describes all the data transformation applied to the original files to get the tidy data for analysis.
 
+Additional information about variable description, units etc can be found on CodeBook.md file.
+
 # Data Transformation - Step by Step
 
 ## Step 1 - Merging the training and the test sets to create one data set
