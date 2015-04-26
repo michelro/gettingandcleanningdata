@@ -81,7 +81,10 @@ run_analysis <- function() {
         # STEP 4
         # Appropriately labels the data set with descriptive variable names.
         
+        # Reuse col_names, previously read, and keep mean and std related columns
         col_names <- c(col_names[grep("mean", col_names)], col_names[grep("std", col_names)])
+        
+        # Perform substitutions, removing invalid chars and replacing for meaninful names
         col_names <- gsub("[()-]", "", col_names)
         col_names <- gsub("mean", "Mean", col_names)
         col_names <- gsub("std", "StandardDeviation", col_names)
@@ -92,6 +95,8 @@ run_analysis <- function() {
         col_names <- gsub("^t", "time", col_names)
         col_names <- gsub("^f", "frequency", col_names)
         col_names <- c("subjectId", col_names, "activityName")
+        
+        # Attribute the new col_names to the names of the data frame
         names(all_data) <- c(col_names)
         
         
